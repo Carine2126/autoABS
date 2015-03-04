@@ -1,0 +1,9 @@
+abs_manage_addClient:
+    path: /addClient
+    defaults: {_controller: ABSManageBundle:Client:addClient}
+abs_manage_listClient:
+    path: /listClient
+    defaults: {_controller: ABSManageBundle:Client:listClient}
+abs_manage_home:
+    path: /home
+    defaults: {_controller: ABSManageBundle:Manage:home}

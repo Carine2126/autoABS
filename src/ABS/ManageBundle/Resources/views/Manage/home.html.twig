@@ -1,0 +1,54 @@
+{% extends "::base.html.twig" %}
+
+     {% block main %}
+
+
+     <!-- Jumbotron -->
+     <div class="jumbotron">
+         <p class="lead">Do your work, don't be stupid !</p>
+     </div>
+     <div class="row">
+         <div class="panel panel-primary">
+             <div class="panel-heading">
+                 <h3 class="panel-title">Clients à contacter</h3>
+             </div>
+             <div class="panel-body">
+                 Panel content
+             </div>
+             <table class="table">
+                 ...
+             </table>
+         </div>
+
+         <div class="panel panel-primary">
+             <div class="panel-heading">
+                 <h3 class="panel-title">Véhicules à rechercher</h3>
+             </div>
+             <div class="panel-body">
+                 Panel content
+             </div>
+
+             <table class="table">
+                 ...
+             </table>
+         </div>
+
+
+         <div class="panel panel-primary">
+             <div class="panel-heading">
+                 <h3 class="panel-title">Véhicules en stock</h3>
+             </div>
+             <div class="panel-body">
+                 Panel content
+             </div>
+             <table class="table">
+                 ...
+             </table>
+         </div>
+     </div>
+     {% endblock %}
+
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
